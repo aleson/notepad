@@ -39,8 +39,6 @@ public class MainActivity extends Activity {
                 Toast.makeText(getApplicationContext(),
                         "Exception: " + t.toString(), Toast.LENGTH_LONG).show();
             }
-
-
     }
 
     public void close(View view) {
